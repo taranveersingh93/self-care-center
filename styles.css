@@ -80,16 +80,18 @@ h2 {
     font-size: 14px;
     letter-spacing: 1.5px;
     border-radius: 7px;
+    transition-duration: 0.1s;
 }
 
-.favoriteMessage {
-    background-color: #134d71;
-    color: white;
-    font-weight: lighter;
-    width: 120px;
-    height: 25px;
-    letter-spacing: 1.5px;
-    border-radius: 7px;
+.buttonAlt {
+    background-color: #ffffff;
+    color: #134d71;
+    transition-duration: 0.3s;
+}
+
+.buttonBold{
+    font-weight: bolder;
+    transition-duration: 0.1s;
 }
 
 .favoriteSection {
@@ -188,9 +190,6 @@ h2 {
     width: 70px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.displayMessage {
 }
 
 .notification {
